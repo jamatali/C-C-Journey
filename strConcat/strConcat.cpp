@@ -10,6 +10,8 @@ int main()
     // cout << fName + " " + lName;
 
     string fullName = fName.append(lName);
-    cout << fullName;
+    cout << fullName << endl;
+    cout << "The String Length of fName is: " << fName.length() << endl;
+    cout << "The Length of fullName is: " << fullName.size() << endl;
     return 0;
 }
