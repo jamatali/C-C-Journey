@@ -5,10 +5,11 @@ using namespace std;
 
 int main()
 {
-    string fName = "Jamat";
+    string fName = "Jamat ";
     string lName = "Ali";
+    // cout << fName + " " + lName;
 
-    cout << fName + " " + lName;
-
+    string fullName = fName.append(lName);
+    cout << fullName;
     return 0;
 }
