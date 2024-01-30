@@ -16,5 +16,7 @@ int main()
 
     cout << round(3.156) << endl;
 
+    cout << log(x) << endl;
+
     return 0;
 }
