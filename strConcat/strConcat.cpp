@@ -31,5 +31,12 @@ int main()
     //     return foName;
     // }
     cout << "total is: " << foName;
+
+    string yName;
+
+    cout << "Type your Name: ";
+    cin >> yName;
+
+    cout << "Your Name is: " << yName;
     return 0;
 }
