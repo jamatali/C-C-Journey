@@ -30,5 +30,7 @@ int main()
 
     cout << cbrt(x) << endl;
 
+    cout << exp(x) << endl;
+
     return 0;
 }
