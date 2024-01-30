@@ -24,5 +24,7 @@ int main()
 
     cout << sin(x) << endl;
 
+    cout << tan(x) << endl;
+
     return 0;
 }
