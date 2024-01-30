@@ -13,5 +13,8 @@ int main()
     cout << min(x, y) << endl;
 
     cout << sqrt(x) << endl;
+
+    cout << round(3.156) << endl;
+
     return 0;
 }
