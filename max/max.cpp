@@ -18,5 +18,7 @@ int main()
 
     cout << log(x) << endl;
 
+    cout << abs(x) << endl;
+
     return 0;
 }
