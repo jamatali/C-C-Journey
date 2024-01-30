@@ -26,5 +26,7 @@ int main()
 
     cout << tan(x) << endl;
 
+    cout << pow(x, y) << endl;
+
     return 0;
 }
