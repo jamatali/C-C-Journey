@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    int foName;
+    int foName = 0;
     string fName = "Jamat";
     string lName = "Ali";
     // cout << fName + " " + lName;
@@ -25,11 +25,11 @@ int main()
     fullName[0] = 't';
     cout << fullName << endl;
 
-    for (int i = 0; i <= fName.length(); i++)
-    {
-        foName += 1;
-        cout << foName << endl;
-    }
-
+    // for (int i = 0; i <= fName.length(); i++)
+    // {
+    //     foName += 1;
+    //     return foName;
+    // }
+    cout << "total is: " << foName;
     return 0;
 }
