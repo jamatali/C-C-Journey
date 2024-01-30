@@ -7,8 +7,8 @@ int main()
 {
     int x = 9, y = 10;
 
-    cout << max(x, y);
+    cout << max(x, y) << endl;
 
-    cout << min(x, y);
+    cout << min(x, y) << endl;
     return 0;
 }
