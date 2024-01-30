@@ -22,5 +22,7 @@ int main()
 
     cout << cos(x) << endl;
 
+    cout << sin(x) << endl;
+
     return 0;
 }
