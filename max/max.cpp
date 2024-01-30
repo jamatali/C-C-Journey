@@ -11,5 +11,7 @@ int main()
     cout << max(x, y) << endl;
 
     cout << min(x, y) << endl;
+
+    cout << sqrt(x) << endl;
     return 0;
 }
