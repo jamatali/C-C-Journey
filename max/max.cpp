@@ -20,5 +20,7 @@ int main()
 
     cout << abs(x) << endl;
 
+    cout << cos(x) << endl;
+
     return 0;
 }
