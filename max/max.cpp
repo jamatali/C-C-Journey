@@ -28,5 +28,7 @@ int main()
 
     cout << pow(x, y) << endl;
 
+    cout << cbrt(x) << endl;
+
     return 0;
 }
