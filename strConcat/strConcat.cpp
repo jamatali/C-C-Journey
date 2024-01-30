@@ -35,7 +35,8 @@ int main()
     string yName;
 
     cout << "Type your Name: ";
-    cin >> yName;
+    // cin >> yName;
+    getline(cin, yName);
 
     cout << "Your Name is: " << yName;
     return 0;
