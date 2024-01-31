@@ -23,5 +23,13 @@ int main()
     {
         cout << "I am not done" << endl;
     }
+    if (x > y)
+    {
+        cout << "x is greater than y" << endl;
+    }
+    else
+    {
+        cout << "x is not greater than y" << endl;
+    }
     return 0;
 }
