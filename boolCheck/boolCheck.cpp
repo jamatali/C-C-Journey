@@ -13,5 +13,6 @@ int main()
     bool isDone = false;
     cout << isOk << endl;
     cout << isDone << endl;
+    cout << (x > y) << endl;
     return 0;
 }
