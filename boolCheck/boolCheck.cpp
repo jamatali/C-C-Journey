@@ -14,5 +14,6 @@ int main()
     cout << isOk << endl;
     cout << isDone << endl;
     cout << (x > y) << endl;
+    cout << (x == 4) << endl;
     return 0;
 }
