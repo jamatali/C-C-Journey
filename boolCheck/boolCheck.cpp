@@ -15,5 +15,13 @@ int main()
     cout << isDone << endl;
     cout << (x > y) << endl;
     cout << (x == 4) << endl;
+    if (x > 4)
+    {
+        cout << "I am Done" << endl;
+    }
+    else
+    {
+        cout << "I am not done" << endl;
+    }
     return 0;
 }
