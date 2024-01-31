@@ -1,5 +1,6 @@
 #include <iostream>
 #include <stdio.h>
+#include <string>
 
 using namespace std;
 
@@ -44,5 +45,6 @@ int main()
     {
         cout << "Good evening.";
     }
+    string result = (time < 18) ? "Good day." : "Good evening.";
     return 0;
 }
