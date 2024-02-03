@@ -52,3 +52,4 @@ Line 44: Another thing that always appear in a C++ program, is int main(). This 
 Line 45: cout (pronounced "see-out") is an object used together with the insertion operator (<<) to output/print text. In our example it will output "Hello World!".
 
 Note: Every C++ statement ends with a semicolon ;.
+Line 46: return 0 ends the main function.
