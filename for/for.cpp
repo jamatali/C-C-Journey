@@ -11,11 +11,19 @@ int main()
     // {
     //     cout << i << "\n";
     // }
+    // for (int i = 0; i < 10; i++)
+    // {
+    //     if (i == 4)
+    //     {
+    //         break;
+    //     }
+    //     cout << i << "\n";
+    // }
     for (int i = 0; i < 10; i++)
     {
         if (i == 4)
         {
-            break;
+            continue;
         }
         cout << i << "\n";
     }
