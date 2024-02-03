@@ -28,3 +28,10 @@ As C++ is close to C, C# and Java, it makes it easy for programmers to switch to
 C++ was developed as an extension of C, and both languages have almost the same syntax.
 
 The main difference between C and C++ is that C++ support classes and objects, while C does not.
+
+# C++ Get Started
+
+To start using C++, you need two things:
+
+A text editor, like Notepad, to write C++ code
+A compiler, like GCC, to translate the C++ code into a language that the computer will understand
