@@ -35,3 +35,14 @@ To start using C++, you need two things:
 
 A text editor, like Notepad, to write C++ code
 A compiler, like GCC, to translate the C++ code into a language that the computer will understand
+
+# Understnding Simple C++ Bolier Plate
+
+#include <iostream>
+using namespace std;
+
+int main() {
+cout << "Hello World!";
+return 0;
+}
+Line 41: #include <iostream> is a header file library that lets us work with input and output objects, such as cout (used in line 5). Header files add functionality to C++ programs.
