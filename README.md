@@ -48,3 +48,4 @@ return 0;
 Line 41: #include <iostream> is a header file library that lets us work with input and output objects, such as cout (used in line 5). Header files add functionality to C++ programs.
 Line 42: using namespace std means that we can use names for objects and variables from the standard library.
 Line 43: A blank line. C++ ignores white space. But we use it to make the code more readable
+Line 44: Another thing that always appear in a C++ program, is int main(). This is called a function. Any code inside its curly brackets {} will be executed.
