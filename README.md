@@ -53,3 +53,5 @@ Line 45: cout (pronounced "see-out") is an object used together with the inserti
 
 Note: Every C++ statement ends with a semicolon ;.
 Line 46: return 0 ends the main function.
+
+To get the size of an array, you can use the sizeof() operator:
