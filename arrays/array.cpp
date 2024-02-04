@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -13,8 +14,8 @@ int main()
 
     cout << cars[0] << endl;
 
-    int length = cars[3].length();
-    cout << "Array Length is: " << length;
+    int length = sizeof(cars);
+    cout << "Array Length is: " << (length / 32) << endl;
 
     // Loop in Array:
 
