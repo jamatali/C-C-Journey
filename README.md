@@ -55,3 +55,9 @@ Note: Every C++ statement ends with a semicolon ;.
 Line 46: return 0 ends the main function.
 
 To get the size of an array, you can use the sizeof() operator:
+
+# C++ Structures (Struct)
+
+Structures (also called structs) are a way to group several related variables into one place. Each variable in the structure is known as a member of the structure.
+
+Unlike an array, a structure can contain many different data types (int, string, bool, etc.).
