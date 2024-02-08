@@ -5,6 +5,6 @@ int main()
 {
     int myNum;
     myNum = 15;
-    cout << &myNum;
+    cout << myNum;
     return 0;
 }
