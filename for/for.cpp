@@ -27,6 +27,11 @@ int main()
         }
         else if (i == 6)
         {
+            continue;
+            ;
+        }
+        else if (i == 9)
+        {
             break;
         }
 
