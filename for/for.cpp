@@ -25,6 +25,11 @@ int main()
         {
             continue;
         }
+        else if (i == 6)
+        {
+            break;
+        }
+
         cout << i << "\n";
     }
     return 0;
