@@ -78,3 +78,46 @@ And why is it useful to know the memory address?
 References and Pointers (which you will learn about in the next chapter) are important in C++, because they give you the ability to manipulate the data in the computer's memory - which can reduce the code and improve the performance.
 
 These two features are one of the things that make C++ stand out from other programming languages, like Python and Java.
+
+# Pointer
+A pointer however, is a variable that stores the memory address as its value.
+
+A pointer variable points to a data type (like int or string) of the same type, and is created with the * operator. The address of the variable you're working with is assigned to the pointer:
+
+# Memory Address and Value:
+Note that the * sign can be confusing here, as it does two different things in our code:
+
+When used in declaration (string* ptr), it creates a pointer variable.
+When not used in declaration, it act as a dereference operator.
+string food = "Pizza";  // Variable declaration
+string* ptr = &food;    // Pointer declaration
+
+// Reference: Output the memory address of food with the pointer (0x6dfed4)
+cout << ptr << "\n";
+
+// Dereference: Output the value of food with the pointer (Pizza)
+cout << *ptr << "\n";
+
+# Modify Pointers:
+You can also change the pointer's value. But note that this will also change the value of the original variable:
+string food = "Pizza";
+string* ptr = &food;
+
+// Output the value of food (Pizza)
+cout << food << "\n";
+
+// Output the memory address of food (0x6dfed4)
+cout << &food << "\n";
+
+// Access the memory address of food and output its value (Pizza)
+cout << *ptr << "\n";
+
+// Change the value of the pointer
+*ptr = "Hamburger";
+
+// Output the new value of the pointer (Hamburger)
+cout << *ptr << "\n";
+
+// Output the new value of the food variable (Hamburger)
+cout << food << "\n";
+
