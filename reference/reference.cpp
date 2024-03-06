@@ -9,6 +9,6 @@ int main()
 
     cout << food << "\n";
     cout << meal << "\n";
-    cout << &food;
+    cout << &food; //This will Give memory address of a variable
     return 0;
 }
