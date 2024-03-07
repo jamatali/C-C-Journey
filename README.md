@@ -121,3 +121,5 @@ cout << *ptr << "\n";
 // Output the new value of the food variable (Hamburger)
 cout << food << "\n";
 
+# C++ Functions
+
