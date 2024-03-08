@@ -2,10 +2,10 @@
 #include <iostream>
 using namespace std;
 
-void myFunction () {
-    cout << "This is My First C++ Function" <<endl;
+void myFunction (string x = "10") {
+    cout << "This is My First C++ Function" << " " << x <<endl;
 }
 int main () {
-    myFunction();
+    myFunction("20");
     return 0;
 }
