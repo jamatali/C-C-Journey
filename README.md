@@ -157,3 +157,5 @@ Look at the following illustration to see the difference between class and objec
 So, a class is a template for objects, and an object is an instance of a class.
 
 When the individual objects are created, they inherit all the variables and functions from the class.
+
+A class is a user-defined data type that we can use in our program, and it works as an object constructor, or a "blueprint" for creating objects.
