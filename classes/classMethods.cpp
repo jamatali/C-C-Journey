@@ -13,6 +13,11 @@ class myClass {
 class yourClass {
     public:
     void yourName(); //declaration
+    int parF(int loh);
+};
+
+int yourClass::parF(int loh){
+    return loh;
 };
 
 void yourClass::yourName(){ //definition outside class
@@ -26,5 +31,8 @@ myObj.myName();
 
 yourClass yourObj;
 yourObj.yourName();
+yourClass parFObj;
+int result = parFObj.parF(10);
+cout << result;
     return 0;
 };
