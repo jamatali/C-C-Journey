@@ -168,3 +168,9 @@ Inside class definition
 Outside class definition
 
 To define a function outside the class definition, you have to declare it inside the class and then define it outside of the class. This is done by specifiying the name of the class, followed the scope resolution :: operator, followed by the name of the function:
+
+# Constructor
+Constructor is a special method in C++ that is automatically called when an object of a class is created.
+to create a constructor use the same name as class followed by paranthesis();
+it is always public and does not have a return value.
+
