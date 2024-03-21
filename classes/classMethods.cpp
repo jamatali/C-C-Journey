@@ -10,8 +10,21 @@ class myClass {
     };
 };
 
+class yourClass {
+    public:
+    void yourName(); //declaration
+};
+
+void yourClass::yourName(){ //definition outside class
+    cout << "Nagan" <<endl;
+};
+
+
 int main () {
 myClass myObj;
 myObj.myName();
+
+yourClass yourObj;
+yourObj.yourName();
     return 0;
 };
