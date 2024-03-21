@@ -159,3 +159,12 @@ So, a class is a template for objects, and an object is an instance of a class.
 When the individual objects are created, they inherit all the variables and functions from the class.
 
 A class is a user-defined data type that we can use in our program, and it works as an object constructor, or a "blueprint" for creating objects.
+
+# Class Methods
+Methods are functions that belongs to the class.
+There are two ways to define functions that belongs to a class:
+
+Inside class definition
+Outside class definition
+
+To define a function outside the class definition, you have to declare it inside the class and then define it outside of the class. This is done by specifiying the name of the class, followed the scope resolution :: operator, followed by the name of the function:
