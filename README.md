@@ -174,3 +174,16 @@ Constructor is a special method in C++ that is automatically called when an obje
 to create a constructor use the same name as class followed by paranthesis();
 it is always public and does not have a return value.
 
+# Access Specifiers
+Access specifiers define how the class members like attributes and methods can be accessed
+In C++ there are 3 types of access specifiers Public, Private and Protected.
+
+public - members are accessible from outside the class
+private - members cannot be accessed (or viewed) from outside the class
+protected - members cannot be accessed from outside the class, however, they can be accessed in inherited classes
+
+In case of accessing a private member, error willbe occurred.
+It is possible to access a private member using public method inside the same class.
+It is considered good practice to declare your class attributes as private (as often as you can). This will reduce the possibility of yourself (or others) to mess up the code. This is also the main ingredient of the Encapsulation concept,
+Note: By default, all members of a class are private if you don't specify an access specifier:
+
