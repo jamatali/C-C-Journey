@@ -193,4 +193,5 @@ The meaning of Encapsulation, is to make sure that "sensitive" data is hidden fr
 ## Why Encapsulation?
 It is considered good practice to declare your class attributes as private (as often as you can). Encapsulation ensures better control of your data, because you (or others) can change one part of the code without affecting other parts
 Increased security of data
+Encapsulation also means that it binds data and code togather into one unit
 
