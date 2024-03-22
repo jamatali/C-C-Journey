@@ -187,3 +187,10 @@ It is possible to access a private member using public method inside the same cl
 It is considered good practice to declare your class attributes as private (as often as you can). This will reduce the possibility of yourself (or others) to mess up the code. This is also the main ingredient of the Encapsulation concept,
 Note: By default, all members of a class are private if you don't specify an access specifier:
 
+# Encapsulation
+The meaning of Encapsulation, is to make sure that "sensitive" data is hidden from users. To achieve this, you must declare class variables/attributes as private (cannot be accessed from outside the class). If you want others to read or modify the value of a private member, you can provide public get and set methods.
+
+## Why Encapsulation?
+It is considered good practice to declare your class attributes as private (as often as you can). Encapsulation ensures better control of your data, because you (or others) can change one part of the code without affecting other parts
+Increased security of data
+
