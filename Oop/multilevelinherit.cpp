@@ -1,3 +1,7 @@
+#include <iostream>
+
+using namespace std;
+
 // Base class (parent)
 class MyClass {
   public:
