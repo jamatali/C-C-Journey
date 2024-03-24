@@ -206,3 +206,6 @@ In the example below, the Car class (child) inherits the attributes and methods 
 ## Why And When To Use "Inheritance"?
 - It is useful for code reusability: reuse attributes and methods of an existing class when you create a new class.
 
+### Multilevel Inheritance
+A class can also be derived from one class, which is already derived from another class.
+
