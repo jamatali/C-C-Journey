@@ -212,4 +212,6 @@ A class can also be derived from one class, which is already derived from anothe
 ## Multiple Inheritance
 A class can also be derived from more than one base class, using a comma-separated list:
 
+## Access Specifiers
+There are three specifiers available in C++. Until now, we have only used public (members of a class are accessible from outside the class) and private (members can only be accessed within the class). The third specifier, protected, is similar to private, but it can also be accessed in the inherited class:
 
