@@ -209,3 +209,7 @@ In the example below, the Car class (child) inherits the attributes and methods 
 ### Multilevel Inheritance
 A class can also be derived from one class, which is already derived from another class.
 
+## Multiple Inheritance
+A class can also be derived from more than one base class, using a comma-separated list:
+
+
