@@ -222,3 +222,13 @@ Like we specified in the previous chapter; Inheritance lets us inherit attribute
 
 For example, think of a base class called Animal that has a method called animalSound(). Derived classes of Animals could be Pigs, Cats, Dogs, Birds - And they also have their own implementation of an animal sound (the pig oinks, and the cat meows, etc.):
 
+# C++ Files
+The fstream library allows us to work with files.
+To use the fstream library, include both the standard <iostream> AND the <fstream> header file:
+
+There are three classes included in the fstream library, which are used to create, write or read files:
+1. ofstream	Creates and writes to files
+2. ifstream	Reads from files
+3. fstream	A combination of ofstream and ifstream: creates, reads, and writes to files
+It is considered good practice, and it can clean up unnecessary memory space.
+
